@@ -1,0 +1,75 @@
+<meta charset="UTF-8">
+
+
+<script>
+// declarar una funcion  para mejorar odigo
+function saltar(){
+	document.write("<br><br><br><hr><br><br>");
+	
+}
+
+
+// funcion declarada con parametros recibiendo como instruccion otra funcion
+function imprimir(frase){
+	document.write("<big>" + frase + "</big>");
+	saltar();
+}
+
+
+
+// variable declarada para todas las edades para autimatizar codigo 
+var anho = 2025;
+
+//utilizando salto de linea como variable para mejorar mi codigo
+var saltoDeLinea = "<br>";
+
+// funcion con parametro
+imprimir("Edad de los jovenes");
+
+imprimir("juan tiene " + (anho-2000) + " año" );
+//utilizando la variable declarad
+document.write(saltoDeLinea);
+
+imprimir("pedro tiene " + (anho-1995) + " año");
+
+
+anho= 2030;
+
+imprimir("carlos tiene " + (anho-2005) + " año");
+
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+
+anho = 2020;
+
+document.write("jimna tiene " + (anho-2010) + " anho");
+document.write("<br>");
+document.write("<br>");
+
+document.write("paola tiene " + (anho-1995) + " anho")
+document.write("<br>");
+document.write("<br>");
+
+document.write("Laura tiene " +  (anho-2005) + " anho");
+document.write("<br>");
+document.write("<br>");
+
+var edadjimena = 10;
+var edadPaola = 25;
+var edadLaura = 15;
+
+var nombre1 =  "jimena";
+var nombre2 = "Paola";
+var nombre3 = "Laura";
+
+// haciendo operaciones matematicas con las variables declaradas
+promedio = (edadjimena + edadPaola + edadLaura)/3;
+//utilizando la funcion Math.Round para redondear la cifra decimal
+document.write("El promedio de las edades de " + nombre1 + ", " + nombre2 + ", " + nombre3 + " es: " + Math.round(promedio));
+document.write("<br>");
+
+
+
+</script>

@@ -1,0 +1,30 @@
+<meta charset=UTF-8>
+
+
+<script>
+	function saltarLinea(){
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+	function imprimir(frase){
+		document.write(frase);
+		saltarLinea();
+	}
+
+	// declaramos la funcion con los parametros 
+	function calcularImc(peso,altura,nombre){
+		imc = peso/(altura*altura);
+		return(imc);
+		
+	}
+
+	
+	imprimir("El  promedio IMC de cristian y felipe es: " + (calcularImc(71,1.72,"Cristian")+calcularImc(75,1.73,"Felipe")/2));
+	imprimir("El  promedio IMC de gabriela y luisa es: " + (calcularImc(65,1.68,"Cristian")+calcularImc(55,1.6,"Felipe")/2));
+	
+	
+
+	
+
+</script>
